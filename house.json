@@ -1,0 +1,148 @@
+{
+"name":"House",
+"children":
+[
+	{ 
+	  "name":"Basic" , 
+  	  "children":
+  	  [
+	  	  	{"name":"Living room" },
+	  	  	{"name":"Kitchen" },
+	  	  	{"name":"Bathroom" },
+	  	  	{"name":"Bedroom" }
+  	  ] 
+  	},
+  	
+	{ 
+		"name":"Modest" , 
+		"children":
+		[
+			{
+				"name":"Living room",
+				"children":
+				[
+					{"name":"Dinning area"},
+					{"name":"Fireplace"}
+				]
+			},
+			{
+				"name":"Kitchen",
+		
+			},
+			{"name":"Bathrooms",
+			"children":
+				[
+					{"name":"Storage"},
+					{"name":"Tub"},
+				]},
+			{"name":"Bedrooms",
+			"children":
+				[
+					{"name":"Closet"},
+					{"name":"Bathroom"},
+				]}
+		] 
+	},
+	
+	{ 
+		"name":"Decent",
+		"children":
+		[
+			{
+				"name":"Living room",
+				"children":
+				[
+					{"name":"Flex rooms"},
+					{"name":"Fireplace"},
+					{"name":"Stairs"}
+				]
+			},
+			{
+				"name":"Kitchen",
+				"children":
+				[
+					{"name":"Plantry"},
+					{"name":"Wine closet"},
+					{"name":"Kitchen island"}
+				]
+			},
+			{"name":"Bathrooms",
+			"children":
+			[
+				{"name":"Storage"},
+				{"name":"Tub"},
+				{"name":"Jacuzzi"}
+			]},
+			{
+				"name":"Bedrooms",
+				"children":
+				[
+					{"name":"Walk-in closet"},
+					{"name":"Bathroom"}
+				]
+			},
+			{"name":"Dinning room"},
+			{"name":"Laundry"},
+			{"name":"Media room"},
+			{"name":"Owers entry"},
+			{"name":"Grages"},
+			{"name":"Basement"}
+			
+		] 
+	},
+	
+	{ 
+		"name":"Luxry" , 
+		"children":
+		[
+			{
+				"name":"Living room",
+				"children":
+				[
+					{"name":"Flex rooms"},
+					{"name":"Fireplace"},
+					{"name":"Hall"},
+					{"name":"Casual areas"},
+					{"name":"Stairs"}
+				]
+			},
+			{
+				"name":"Kitchen",
+				"children":
+				[
+					{"name":"Plantry"},
+					{"name":"Wine closet"},
+					{"name":"Kitchen island"},
+					{"name":"Win Bar"},
+					{"name":"Secondary dinning room"}
+					
+				]
+			},
+			{"name":"Bathrooms",
+			"children":
+			[
+				{"name":"Storage"},
+				{"name":"Tub"},
+				{"name":"Jacuzzi"},
+				{"name":"Dressing room"}
+			]},
+			{
+				"name":"Bedrooms",
+				"children":
+				[
+					{"name":"Dressing room"},
+					{"name":"Bathroom"},
+					{"name":"Reading room"}
+				]
+			},
+			{"name":"Laundry"},
+			{"name":"Lobby"},
+			{"name":"Hall"},
+			{"name":"Grages"},
+			{"name":"Basement"},
+			{"name":"Gym"},
+			{"name":"Media room"}
+		] 
+	}
+]
+}
