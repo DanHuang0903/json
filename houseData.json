@@ -1,0 +1,95 @@
+{
+"name":"House",
+"children":
+[
+	{ 
+	  "name":"Simple" , 
+  	  "children":
+  	  [
+	  	  	{"name":"Living Room" },
+	  	  	{"name":"Bedroom" },
+	  	  	{"name":"Bathroom" },
+	  	  	{"name":"Kitchen" }
+  	  ] 
+  	},
+  	
+	{ 
+		"name":"Modest" , 
+		"children":
+		[
+			{"name":"Living Room"},
+			{
+				"name":"Bedrooms",
+				"children":
+				[
+					{"name":"Closet"},
+					{"name":"Bathroom"}
+				]
+			},
+			{
+				"name":"Bathroom",
+				"children":
+				[
+					{"name":"Tub"},
+					{"name":"Washing Table"}
+				]
+			},
+			{"name":"Kitchen"},
+			{"name":"Grage"}
+		] 
+	},
+	
+	{ 
+		"name":"Decent",
+		"children":
+		[
+			{
+				"name":"选择集",
+				"children":
+				[
+					{"name":"select"},
+					{"name":"selectAll"}
+				]
+			},
+			{
+				"name":"绑定数据",
+				"children":
+				[
+					{"name":"datum"},
+					{"name":"data"}
+				]
+			},
+			{"name":"添加删除元素"},
+			{
+				"name":"简单图形",
+				"children":
+				[
+					{"name":"柱形图"},
+					{"name":"折线图"},
+					{"name":"散点图"}
+				]
+			},
+			{"name":"比例尺"},
+			{"name":"生成器"},
+			{"name":"过渡"}
+		] 
+	},
+	
+	{ 
+		"name":"Luxury" , 
+		"children":
+		[
+			{
+				"name":"布局的应用",
+				"children":
+				[
+					{"name":"饼状图"},
+					{"name":"树状图"},
+					{"name":"矩阵树图"}
+				]
+			},
+			{"name":"地图"}
+		]
+	}
+]
+}
